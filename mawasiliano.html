@@ -17,33 +17,33 @@
                 <li><a href="huduma.html">Huduma</a></li>
                 <li><a href="dashibodi.html">Dashibodi</a></li>
                 <li><a href="mawasiliano.html">Mawasiliano</a></li>
-                <li><a href="ingia.html" class="btn" style="padding: 5px 15px; margin-top:-5px;">Ingia</a></li>
+                <li><a href="ingia.html" class="btn">Ingia</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main style="display: flex; align-items: center; justify-content: center; min-height: 70vh;">
         <div class="form-container">
-            <h2 style="color: var(--primary-color); text-align: center; margin-bottom: 20px;">Wasiliana Nasi</h2>
-            <p style="text-align: center; margin-bottom: 20px;">Tutumie ujumbe kama una swali au unahitaji msaada kuhusu mfumo wetu.</p>
+            <h2>Wasiliana Nasi</h2>
+            <p style="text-align: center; margin-bottom: 20px; color: var(--text-muted);">Tutumie ujumbe kwa swali au ushauri wowote kuhusu huduma zetu.</p>
             
-            <form action="#" method="get">
+            <form action="#" method="post">
                 <div class="form-group">
                     <label for="jina">Jina Lako:</label>
-                    <input type="text" id="jina" name="jina" placeholder="Weka jina lako hapa" required>
+                    <input type="text" id="jina" name="jina" placeholder="Andika jina lako" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="namba">Namba ya Simu:</label>
-                    <input type="tel" id="namba" name="namba" placeholder="Mfano: 0700 000 000" required>
+                    <label for="barua">Barua Pepe:</label>
+                    <input type="email" id="barua" name="barua" placeholder="mfano@barua.com" required>
                 </div>
-                
+
                 <div class="form-group">
                     <label for="ujumbe">Ujumbe Wako:</label>
                     <textarea id="ujumbe" name="ujumbe" placeholder="Andika ujumbe wako hapa..." required></textarea>
                 </div>
                 
-                <button type="submit" class="btn" style="width: 100%;">Tuma Ujumbe</button>
+                <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Tuma Ujumbe</button>
             </form>
         </div>
     </main>
